@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.7",
+    "ml5": "^0.2.1",
+    "p5": "^0.7.3",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-scripts": "2.1.5",
