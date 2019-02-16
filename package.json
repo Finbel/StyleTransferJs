@@ -1,0 +1,9 @@
+{
+  "name": "ml5-project",
+  "version": "0.1.0",
+  "description": "style transfer",
+  "main": "index.js",
+  "author": "Patrick O'Regan",
+  "license": "MIT",
+  "private": false
+}
