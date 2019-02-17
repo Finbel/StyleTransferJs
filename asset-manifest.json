@@ -1,13 +1,13 @@
 {
-  "main.css": "/webml/static/css/main.7d363ce9.chunk.css",
-  "main.js": "/webml/static/js/main.e5ba8fdb.chunk.js",
-  "main.js.map": "/webml/static/js/main.e5ba8fdb.chunk.js.map",
-  "runtime~main.js": "/webml/static/js/runtime~main.331b613f.js",
-  "runtime~main.js.map": "/webml/static/js/runtime~main.331b613f.js.map",
-  "static/js/2.50f0fc17.chunk.js": "/webml/static/js/2.50f0fc17.chunk.js",
-  "static/js/2.50f0fc17.chunk.js.map": "/webml/static/js/2.50f0fc17.chunk.js.map",
-  "index.html": "/webml/index.html",
-  "precache-manifest.37d26e593ae1b09034218d4418b39a38.js": "/webml/precache-manifest.37d26e593ae1b09034218d4418b39a38.js",
-  "service-worker.js": "/webml/service-worker.js",
-  "static/css/main.7d363ce9.chunk.css.map": "/webml/static/css/main.7d363ce9.chunk.css.map"
+  "main.css": "/styletransferjs/static/css/main.7d363ce9.chunk.css",
+  "main.js": "/styletransferjs/static/js/main.85fc083c.chunk.js",
+  "main.js.map": "/styletransferjs/static/js/main.85fc083c.chunk.js.map",
+  "runtime~main.js": "/styletransferjs/static/js/runtime~main.07535b11.js",
+  "runtime~main.js.map": "/styletransferjs/static/js/runtime~main.07535b11.js.map",
+  "static/js/2.50f0fc17.chunk.js": "/styletransferjs/static/js/2.50f0fc17.chunk.js",
+  "static/js/2.50f0fc17.chunk.js.map": "/styletransferjs/static/js/2.50f0fc17.chunk.js.map",
+  "index.html": "/styletransferjs/index.html",
+  "precache-manifest.db79984fe55c33fcf8792b73d711b628.js": "/styletransferjs/precache-manifest.db79984fe55c33fcf8792b73d711b628.js",
+  "service-worker.js": "/styletransferjs/service-worker.js",
+  "static/css/main.7d363ce9.chunk.css.map": "/styletransferjs/static/css/main.7d363ce9.chunk.css.map"
 }
