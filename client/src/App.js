@@ -163,19 +163,18 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
-            <ul>
-              <li>
+            <div className="Header-Container">
+              <div>
                 <Link to="/">Home</Link>
-              </li>
-              <li>
+              </div>
+              <div>
                 <Link to="/cv">Computer Vision</Link>
-              </li>
-              <li>
+              </div>
+              <div>
                 <Link to="/nlp">NLP</Link>
-              </li>
-            </ul>
+              </div>
+            </div>
 
-            <hr />
             <h2>Ml models</h2>
 
             <Route exact path="/" component={ComputerVision} />

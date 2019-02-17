@@ -8,6 +8,18 @@
   pointer-events: none;
 }
 
+a {
+  color: #222;
+}
+
+a :visited {
+  color: grey;
+}
+
+a :active {
+  color: white;
+}
+
 .App-header {
   background-color: pink;
   min-height: 100vh;
@@ -30,4 +42,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header-Container {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-direction: row;
+  background-image: linear-gradient(lightblue, lightblue);
+  color: white;
+  padding: 25px;
 }
