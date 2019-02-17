@@ -8,6 +8,7 @@
     "p5": "^0.7.3",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5",
     "react-spinners": "^0.5.1"
   },
