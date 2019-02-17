@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Patrick O'Regan",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
