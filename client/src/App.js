@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import "./App.css";
 import ComputerVision from "./componenets/ComputerVision";
 import Nlp from "./componenets/Nlp";
@@ -11,21 +16,22 @@ class App extends Component {
           <div>
             <div className="Header-Container">
               <div>
-                <Link to="/">Home</Link>
+                <Link to="/onlineml/">Home</Link>
               </div>
               <div>
-                <Link to="/cv">Computer Vision</Link>
+                <Link to="/onlineml/cv">Computer Vision</Link>
               </div>
               <div>
-                <Link to="/nlp">NLP</Link>
+                <Link to="/onlineml/nlp">NLP</Link>
               </div>
             </div>
 
             <h2>Ml models</h2>
 
-            <Route exact path="/" component={ComputerVision} />
-            <Route path="/cv" component={ComputerVision} />
-            <Route path="/nlp" component={Nlp} />
+            <Route exact path="/" render={() => <Redirect to="/onlineml" />} />
+            <Route exact path="/onlineml/" component={ComputerVision} />
+            <Route path="/onlineml/cv" component={ComputerVision} />
+            <Route path="/onlineml/nlp" component={Nlp} />
           </div>
         </Router>
       </div>

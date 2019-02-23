@@ -35,6 +35,26 @@ a :active {
   color: #61dafb;
 }
 
+.explored {
+  fill: black;
+}
+
+.graph {
+  background-color: whitesmoke;
+  height: 600px;
+  padding: 100px;
+}
+
+.rv-force__svg {
+  border-radius: 20px;
+  background: white;
+}
+
+.rv-force__label {
+  font-size: 14px;
+  padding: 2px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

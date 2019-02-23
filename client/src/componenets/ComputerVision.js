@@ -3,6 +3,11 @@ import WhatsInThisImage from "./WhatsInThisImage";
 
 class ComputerVision extends Component {
   render() {
+    const catpath =
+      window.location.hostname === "localhost"
+        ? "/cat.jpeg"
+        : "onlineml/cat.jpeg";
+
     return (
       <WhatsInThisImage
         renderImage={({ ref }) => (
@@ -10,7 +15,7 @@ class ComputerVision extends Component {
             alt="cat"
             ref={ref}
             crossOrigin="anonymous"
-            src="/cat.jpeg"
+            src={catpath}
             id="image"
             width="400"
           />
