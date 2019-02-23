@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/styletransferjs/precache-manifest.db79984fe55c33fcf8792b73d711b628.js"
+  "/StyleTransferJs/precache-manifest.f6ba7a85a9baa875c98abb3b3ac70d6d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/styletransferjs/index.html", {
+workbox.routing.registerNavigationRoute("/StyleTransferJs/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
