@@ -1,6 +1,7 @@
 import React from "react";
 import { ClipLoader } from "react-spinners";
 import * as ml5 from "ml5";
+import Uploader from "./Uppy.js";
 
 class WhatsInThisImage extends React.Component {
   constructor(props) {
@@ -12,21 +13,19 @@ class WhatsInThisImage extends React.Component {
         probability: ""
       },
       isLoading: false,
-      error: null
+      error: null,
+      uploaderOpen: false
     };
     this.predict = this.predict.bind(this);
   }
   async predict() {
     if (!this.imageRef.current) return;
     this.setState(s => ({ ...s, isLoading: true }));
-    console.log("HIII");
     // hack for slow connections
     // await delay(2000)
-    console.log("Hiyein");
     try {
       const classifier = await ml5.imageClassifier("MobileNet");
       const results = await classifier.predict(this.imageRef.current);
-      console.log("Hiyein 3");
       if (results.length === 0) {
         this.setState({ error: new Error("NO_PREDICTIONS"), isLoading: false });
         return;
@@ -40,7 +39,6 @@ class WhatsInThisImage extends React.Component {
         });
       }
     } catch (error) {
-      console.log("Hiyein 4");
       this.setState({ error, isLoading: false });
     }
   }
@@ -54,6 +52,20 @@ class WhatsInThisImage extends React.Component {
       await this.predict();
     }
   }
+
+  toggleUploader = () => {
+    console.log("toggling the uploader");
+    this.setState({
+      uploaderOpen: true
+    });
+  };
+
+  closeModal = () => {
+    this.setState({
+      uploaderOpen: false
+    });
+  };
+
   render() {
     return (
       <div>
@@ -68,6 +80,12 @@ class WhatsInThisImage extends React.Component {
           size={150}
           color={"#123abc"}
           loading={this.state.isLoading}
+        />
+
+        <button onClick={() => this.toggleUploader()}>Upload open</button>
+        <Uploader
+          handleClose={this.closeModal}
+          open={this.state.uploaderOpen}
         />
 
         <pre>

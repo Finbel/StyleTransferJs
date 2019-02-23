@@ -4,9 +4,7 @@ import WhatsInThisImage from "./WhatsInThisImage";
 class ComputerVision extends Component {
   render() {
     const catpath =
-      window.location.hostname === "localhost"
-        ? "/cat.jpeg"
-        : "onlineml/cat.jpeg";
+      window.location.hostname === "localhost" ? "/cat.jpeg" : "/cat.jpeg";
 
     return (
       <WhatsInThisImage
