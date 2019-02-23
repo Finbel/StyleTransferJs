@@ -1,13 +1,13 @@
 {
-  "main.css": "/StyleTransferJs/static/css/main.327eb1ce.chunk.css",
-  "main.js": "/StyleTransferJs/static/js/main.c8330bf0.chunk.js",
-  "main.js.map": "/StyleTransferJs/static/js/main.c8330bf0.chunk.js.map",
+  "main.css": "/StyleTransferJs/static/css/main.c093232a.chunk.css",
+  "main.js": "/StyleTransferJs/static/js/main.dc5d20d3.chunk.js",
+  "main.js.map": "/StyleTransferJs/static/js/main.dc5d20d3.chunk.js.map",
   "runtime~main.js": "/StyleTransferJs/static/js/runtime~main.b79a7297.js",
   "runtime~main.js.map": "/StyleTransferJs/static/js/runtime~main.b79a7297.js.map",
-  "static/js/2.c7a538e8.chunk.js": "/StyleTransferJs/static/js/2.c7a538e8.chunk.js",
-  "static/js/2.c7a538e8.chunk.js.map": "/StyleTransferJs/static/js/2.c7a538e8.chunk.js.map",
+  "static/js/2.d2f438c0.chunk.js": "/StyleTransferJs/static/js/2.d2f438c0.chunk.js",
+  "static/js/2.d2f438c0.chunk.js.map": "/StyleTransferJs/static/js/2.d2f438c0.chunk.js.map",
   "index.html": "/StyleTransferJs/index.html",
-  "precache-manifest.f6ba7a85a9baa875c98abb3b3ac70d6d.js": "/StyleTransferJs/precache-manifest.f6ba7a85a9baa875c98abb3b3ac70d6d.js",
+  "precache-manifest.8b51d8937139eba9a43773a4e2d03602.js": "/StyleTransferJs/precache-manifest.8b51d8937139eba9a43773a4e2d03602.js",
   "service-worker.js": "/StyleTransferJs/service-worker.js",
-  "static/css/main.327eb1ce.chunk.css.map": "/StyleTransferJs/static/css/main.327eb1ce.chunk.css.map"
+  "static/css/main.c093232a.chunk.css.map": "/StyleTransferJs/static/css/main.c093232a.chunk.css.map"
 }
