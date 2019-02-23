@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e22964ab7915924f0fa5",
+    "revision": "721a7f28f1cd8629e58a",
     "url": "/onlineml/static/css/main.c093232a.chunk.css"
   },
   {
-    "revision": "e22964ab7915924f0fa5",
-    "url": "/onlineml/static/js/main.e22964ab.chunk.js"
+    "revision": "721a7f28f1cd8629e58a",
+    "url": "/onlineml/static/js/main.721a7f28.chunk.js"
   },
   {
     "revision": "2da27cc97e481f818755",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/onlineml/static/js/2.eb12fae3.chunk.js"
   },
   {
-    "revision": "d13c4d5e0168d0ecbdd59bf05becfcce",
+    "revision": "1bddb8e06086a8d7eead9ea7fcee4037",
     "url": "/onlineml/index.html"
   }
 ];
