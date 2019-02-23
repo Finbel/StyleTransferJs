@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/StyleTransferJs/precache-manifest.8b51d8937139eba9a43773a4e2d03602.js"
+  "/onlineml/precache-manifest.6d8c44c1f24e2eb0741c22f19937ed9e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/StyleTransferJs/index.html", {
+workbox.routing.registerNavigationRoute("/onlineml/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
